@@ -3,13 +3,11 @@ import ssl
 import smtplib
 
 from email.message import EmailMessage
-from dotenv import load_dotenv
-load_dotenv()
 #import from python
 
 #declare email variables
 email_sender = 'cursedkittenz@gmail.com'
-email_password = os.getenv('password')
+email_password = 'nyxynkbtjghrzczt'
 
 email_receiver = 'nedom70199@chnlog.com'
 subject = 'Test2'
